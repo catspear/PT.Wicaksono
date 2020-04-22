@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Order</title>
+</head>
+<body>
+	<h3 align="left">Order </h3>
+	<table>
+		<tr>
+			<td>Nama</td>
+			<td> <input type="text" name="nama"></td>
+		</tr>
+		<tr>
+			<td>Alamat</td>
+			<td><input type="text" name="alamat"></td>
+		</tr>
+		<tr>
+			<td>Order</td>
+			<td> <select name="order" >
+				<option value="1kg">1 Kilo Gram </option>
+				<option value="2kg">2 Kilo Gram</option>
+				<option value="3kg">3 Kilo Gram</option>
+				<option value="4kg">4 Kilo Gram </option>
+				<option value="5kg">5 Kilo Gram</option>
+				<option value="6kg">6 Kilo Gram</option>
+				<option value="lain-lain">Lain-lain</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Tanggal</td>
+			<td> <input type="date" name="tanggal"></td>
+		</tr>
+		<tr>
+			<td>Email</td>
+			<td><input type="email" name="email"  required="wicaksono@example.com"></td>
+		</tr>
+		<tr>
+			<td>Pembayaran</td>
+			<td> <select name="pembayaran">
+				<option value="indomaret">Indomaret</option>
+				<option value="alfamart">Alfamart</option>
+				<option value="bri">BRI</option>
+				<option value="bca">BCA</option>
+				<option value="optional">Bayar di tempat</option>
+			</select>
+			</td>
+		</tr>
+	</table>
+	<input type="submit" name="order" value="order">
+	<input type="reset" name="reset" value="reset">
+	<input type="submit" name="kembali" value="kembali" self.historyback()>
+
+</body>
+</html>
